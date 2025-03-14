@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="MyXMLTVGenerator" generator-info-url="http://example.com">
+  <!-- Define a channel -->
+  <channel id="channel1">
+    <display-name>Channel One</display-name>
+    <icon src="http://example.com/channel1.png" />
+  </channel>
+
+  <!-- Define programmes for Channel One -->
+  <programme start="20250314060000 +0000" stop="20250314070000 +0000" channel="channel1">
+    <title lang="en">Morning News</title>
+    <desc lang="en">Your daily morning news update.</desc>
+  </programme>
+
+  <programme start="20250314070000 +0000" stop="20250314080000 +0000" channel="channel1">
+    <title lang="en">Weather Forecast</title>
+    <desc lang="en">Latest weather updates and forecasts.</desc>
+  </programme>
+  
+  <!-- Add more channels and programmes as needed -->
+</tv>
