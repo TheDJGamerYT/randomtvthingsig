@@ -1,21 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="MyXMLTVGenerator" generator-info-url="http://example.com">
-  <!-- Define a channel -->
-  <channel id="channel1">
-    <display-name>Channel One</display-name>
-    <icon src="http://example.com/channel1.png" />
+<tv generator-info-name="Jellyfin XMLTV Generator" generator-info-url="https://jellyfin.org">
+  <!-- Jellyfin EPG Channel 1 -->
+  <channel id="jellyfin-channel1">
+    <display-name>Jellyfin Channel 1</display-name>
+    <icon src="https://example.com/jellyfin-channel1.png" />
   </channel>
 
-  <!-- Define programmes for Channel One -->
-  <programme start="20250314060000 +0000" stop="20250314070000 +0000" channel="channel1">
-    <title lang="en">Morning News</title>
-    <desc lang="en">Your daily morning news update.</desc>
+  <!-- Programmes for Jellyfin Channel 1 -->
+  <programme start="20250314060000 +0000" stop="20250314070000 +0000" channel="jellyfin-channel1">
+    <title lang="en">Morning Show</title>
+    <desc lang="en">Start your day with news, weather, and updates.</desc>
   </programme>
 
-  <programme start="20250314070000 +0000" stop="20250314080000 +0000" channel="channel1">
-    <title lang="en">Weather Forecast</title>
-    <desc lang="en">Latest weather updates and forecasts.</desc>
+  <programme start="20250314070000 +0000" stop="20250314080000 +0000" channel="jellyfin-channel1">
+    <title lang="en">Daily Sports</title>
+    <desc lang="en">Catch the latest sports highlights and commentary.</desc>
   </programme>
-  
-  <!-- Add more channels and programmes as needed -->
+
+  <!-- Jellyfin EPG Channel 2 -->
+  <channel id="jellyfin-channel2">
+    <display-name>Jellyfin Channel 2</display-name>
+    <icon src="https://example.com/jellyfin-channel2.png" />
+  </channel>
+
+  <!-- Programmes for Jellyfin Channel 2 -->
+  <programme start="20250314060000 +0000" stop="20250314070000 +0000" channel="jellyfin-channel2">
+    <title lang="en">Documentary Hour</title>
+    <desc lang="en">Explore in-depth stories and fascinating topics.</desc>
+  </programme>
+
+  <programme start="20250314070000 +0000" stop="20250314080000 +0000" channel="jellyfin-channel2">
+    <title lang="en">Classic Cinema</title>
+    <desc lang="en">Enjoy timeless films and cinematic masterpieces.</desc>
+  </programme>
 </tv>
